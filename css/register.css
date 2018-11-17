@@ -1,7 +1,7 @@
 body{
-	background-image: url('back.jpg');
+	background-image: url('../images/back.jpg');
 	background-size: 100%;
-	width: 100% 110%;
+	width: 100%;
 	height: 100%;
 	font-family: Arial;
 }
@@ -11,7 +11,7 @@ body{
 	border-radius: 20px;
 	margin: auto;
 	background: rgba(0,0,0,0.8);
-	box-sizing: 40px;
+	/*box-sizing: 40px;*/
 	padding: 20px;
 	color: #ffff;
 	margin-top: 70px;
@@ -38,7 +38,7 @@ input[type=submit]{
 	width: 60%;
 	height: 35px;
 	box-sizing: border-box;
-	padding: 10px,0px;
+	padding: 10px 0px;
 	margin-top: 30px;
 	outline: none;
 	border:none;
