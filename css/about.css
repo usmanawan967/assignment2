@@ -1,0 +1,71 @@
+#companyName {
+    font-size: xx-large;
+    display: inline;
+}
+
+#foot {
+    background-color: #4d004d;
+}
+
+#foot p {
+    color: white;
+}
+
+#foot ul {
+    list-style-type: none;
+    color: white;
+}
+
+#foot ul li a {
+    color: white;
+}
+
+#foot ul li a:hover {
+    text-decoration: none;
+    color: #80bfff;
+}
+
+#foot div div p {
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #660066;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #80bfff;
+}
+
+.block {
+    display: block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.container {
+    background-color: #660066;
+}
+
+.navbar, .dropdown-menu {
+    background-color: #4d004d;
+}
+
+.nav-link {
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.fa-home, .fa-list-ul, .fa-users, .fa-phone, .fa-sign-in-alt, .fa-user-plus, .fa-map-marker-alt, .fa-plug, .fa-bolt, .fa-chair {
+    color: white;
+}
+
+.navbar{
+    padding: 0%;
+}
