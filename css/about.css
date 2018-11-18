@@ -28,12 +28,9 @@
 #foot div div p {
     color: white;
 }
-
 .dropdown-item:hover {
     background-color: black;
 }
-
-
 nav a:hover {
     text-decoration: none;
     color: #80bfff;
