@@ -7,13 +7,10 @@
     background-color: black;
 }
 
-#rights{
+#rights p{
     background-color: white;
     color: black;
-}
-
-#foot p {
-    color: white;
+    margin: 0px;
 }
 
 #foot ul {
@@ -28,6 +25,10 @@
 #foot ul li a:hover {
     text-decoration: none;
     color: #80bfff;
+}
+
+#foot p{
+    color: white;
 }
 
 #foot div div p {
