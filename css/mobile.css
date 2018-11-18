@@ -4,8 +4,9 @@
 }
 #tablemain{
     margin-top:0;
+    text-align: center;
 }
-#tablemain th{
+#tablemain #tablemain_text{
     font-size: xx-large;
     font-weight: lighter;
     text-align: center;
@@ -21,12 +22,14 @@
     text-underline: none;
 }
 #tablemain .cat{
-    padding:40px;
-    margin:50px;
+    padding:10px;
+    margin:10px;
+    align-content: center;
     text-align: center;
+    float: left;
 }
 #tablemain .cat_text{
-    margin-bottom: 10px;
+    margin-bottom: auto;
     position:relative;
     float:top;
     text-decoration: #4e555b;
@@ -35,12 +38,17 @@
     color: #ffffff;
     opacity: 0.8;
 }
-.Cat_img{
-    width: 150px;
-    height:150px;
-    float:bottom;
-}
-#foot{
-    margin-top:100px;
-    float:bottom;
+@media screen and (min-width: 360px) and (max-width: 359px) {
+    .Cat_img {
+        width: 100px;
+        height: 100px;
+        resize: both;
+        float: bottom;
+    }
+}@media screen and (min-width: 100px) and (max-width: 359px) {
+    .Cat_img {
+        width: 25px;
+        height: 25px;
+        float: bottom;
+    }
 }
