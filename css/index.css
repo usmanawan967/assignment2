@@ -9,9 +9,23 @@
     display: none;
 }
 
+#productContainer a:hover{
+    color: white;
+}
+
+#productContainer a{
+    color:black;
+}
+
+
 .product{
     background-color: #b3b3b3;
     margin: 10px;
+}
+
+.product:hover{
+    background-color: #8c8c8c;
+    box-shadow: 12px 15px 10px 6px rgba(0,0,0,0.68);
 }
 
 .item img {
@@ -119,7 +133,6 @@
 .active, .dot:hover {
     background-color: #717171;
 }
-
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
