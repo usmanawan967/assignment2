@@ -4,7 +4,7 @@
 }
 
 #foot {
-    background-color: #4d004d;
+    background-color: black;
 }
 
 #foot p {
@@ -30,8 +30,9 @@
 }
 
 .dropdown-item:hover {
-    background-color: #660066;
+    background-color: black;
 }
+
 
 nav a:hover {
     text-decoration: none;
@@ -47,25 +48,30 @@ nav a:hover {
 }
 
 .container {
-    background-color: #660066;
+    background-color: black;
 }
 
 .navbar, .dropdown-menu {
-    background-color: #4d004d;
+    background-color: white;
 }
 
 .nav-link {
-    color: white;
+    color: black;
 }
 
 .dropdown-item {
     color: white;
 }
 
-.fa-home, .fa-list-ul, .fa-users, .fa-phone, .fa-sign-in-alt, .fa-user-plus, .fa-map-marker-alt, .fa-plug, .fa-bolt, .fa-chair {
-    color: white;
+.fa-home, .fa-list-ul, .fa-users, .fa-phone, .fa-sign-in-alt, .fa-user-plus, .fa-map-marker-alt,.fa-plug, .fa-bolt, .fa-chair {
+    margin-top: 10px;
+    color: black;
 }
 
 .navbar{
     padding: 0%;
+}
+.inlineBlock i{
+
+    color: white;
 }
