@@ -1,5 +1,5 @@
 body{
-	background-image: url('back.jpg');
+	background-image: url("../images/back.jpg");
 	background-size: 100%;
 	width: 100% 110%;
 	height: 100%;
@@ -7,15 +7,15 @@ body{
 }
 .box{
 
-	max-width: 350px;
+	text-align: center;
+	max-width: 320px;
 	border-radius: 20px;
 	margin: auto;
 	background: rgba(0,0,0,0.8);
 	box-sizing: 40px;
 	padding: 20px;
 	color: #ffff;
-	margin-top: 70px;
-	display: block;
+	margin-top: 80px;
 }
 .box h2{
 	text-align: center;
@@ -28,11 +28,14 @@ input[type=text],input[type=Email],input[type=passoword]{
 	background: rgba(0,0,0,0.10);
 	outline: none;
 	border: none;
-	border-bottom: 1px dotted #fff;
+	
 	color: #fff;
-	border-radius: 50px;
+	border-radius: 10px;
 	margin: 6px;
 	font-weight: bold;
+}
+input[type=radio]{
+
 }
 input[type=submit]{
 	width: 60%;
@@ -47,5 +50,4 @@ input[type=submit]{
 	border-radius: 20px;
 	font-size: 20px;
 	color: #fff;
-
 }
