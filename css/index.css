@@ -9,6 +9,10 @@
     display: none;
 }
 
+#productContainer a:hover, #productContainer a{
+    color: black;
+}
+
 .product{
     background-color: #b3b3b3;
     margin: 10px;
