@@ -21,7 +21,7 @@ body{
 .box h2{
 	text-align: center;
 }
-input[type=text],input[type=Email],input[type=passoword]{
+input[type=text],input[type=Email],input[type=Password]{
 	
 	width: 200px;
 	height: 30px;
