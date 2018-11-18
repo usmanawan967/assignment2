@@ -14,6 +14,17 @@
     margin: 10px;
 }
 
+.item img {
+    width: 100%;
+    height: auto
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
 .productImage{
     padding: 5px;
 }
@@ -35,9 +46,12 @@
     width: 100%;
     height: 100%;
 }
-.carousel-indicators .active, .carousel .carousel-control-prev, .carousel .carousel-control-next{
+.carousel-indicators .active,.carousel-control-prev,.carousel-control-next{
     background-color: black;
-    color: black;
+}
+
+.carousel-indicators li{
+    color: grey;
 }
 
 .carousel .carousel-control-prev, .carousel .carousel-control-next{
