@@ -29,7 +29,7 @@
     color: white;
 }
 .dropdown-item:hover {
-    background-color: black;
+    /*background-color: black;*/
 }
 nav a:hover {
     text-decoration: none;
@@ -57,7 +57,7 @@ nav a:hover {
 }
 
 .dropdown-item {
-    color: white;
+    color: black;
 }
 
 .fa-home, .fa-list-ul, .fa-users, .fa-phone, .fa-sign-in-alt, .fa-user-plus, .fa-map-marker-alt,.fa-plug, .fa-bolt, .fa-chair {
@@ -67,8 +67,4 @@ nav a:hover {
 
 .navbar{
     padding: 0%;
-}
-.inlineBlock i{
-
-    color: white;
 }
