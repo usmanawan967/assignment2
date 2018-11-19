@@ -25,6 +25,7 @@ body{
     transform: translateY(50%);
     width: 100%;
     margin-top: 250px;
+    clear: both;
 }
 .contact-form{
     max-width: 550px;
