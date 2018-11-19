@@ -1,8 +1,8 @@
 body{
-	background-image: url("../images/back.jpg");
-	background-size: 100%;
-	width: 100% 110%;
-	height: 100%;
+	background: url("../images/back.jpg") top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
 	font-family: Arial;
 }
 .box{
