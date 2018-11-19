@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 768px) {
     #tablemain #tablemain_text{
         font-size: x-large;
         font-weight: lighter;
@@ -45,17 +45,22 @@
 
 #tablemain .col{
     margin:auto;
-    padding-bottom: 10px;
+    padding:auto;
 }
 
-.Cat_img{
+.img-fluid{
+    min-width: 80px;
+    min-height: 80px;
+    width: 120px;
+    height:100px;
+    margin: 10px;
     padding: 5px;
     box-shadow: #4e555b;
     border-radius: 10px;
-    width:120px;
-    height:120px;
 }
-
+.img-fluid:hover{
+    border: black 3px groove;
+}
 
 #tablemain .cat_text{
     margin-bottom: auto;
