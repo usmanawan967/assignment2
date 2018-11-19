@@ -14,77 +14,96 @@
 </head>
 <body>
 
-<div class="container col-12">
+<header class="container col-12">
     <div class="text-center">
         <a href="index.html">
             <img src="../images/logo2.png" height="100" alt="Company logo" class="nav-link" id="companyName">
         </a>
     </div>
-</div>
+</header>
 
 <nav class="navbar navbar-expand-sm col-12">
     <ul class="navbar-nav col-12">
-        <li class="nav-item col-2 text-center">
-            <div class="block">
-                <i class="fas fa-home d-none d-sm-inline-block"></i>
-            </div>
-            <div class="block">
-                <a class="nav-link" href="index.html">Home</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown col-2 text-center">
-            <div class="block">
-                <i class="fas fa-list-ul d-none d-sm-inline-block"></i>
-            </div>
-            <div class="block">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
-                   aria-expanded="false">Category</a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="electronics.html">
-                        <div class="inlineBlock"><i class="fas fa-plug"></i></div>
-                        <div class="inlineBlock">Electronics</div>
-                    </a>
-                    <a class="dropdown-item" href="mobile.html">
-                        <div class="inlineBlock"><i class="fas fa-mobile-alt"></i></div>
-                        <div class="inlineBlock">Mobiles</div>
-                    </a>
-                    <a class="dropdown-item" href="furniture.html">
-                        <div class="inlineBlock"><i class="fas fa-chair"></i></div>
-                        <div class="inlineBlock">Furniture</div>
-                    </a>
+
+        <a class="nav-item col-2 text-center" href="index.html">
+            <li>
+                <div class="block">
+                    <i class="fas fa-home d-none d-sm-inline-block"></i>
                 </div>
-            </div>
-        </li>
-        <li class="nav-item col-2 text-center">
-            <div class="block">
-                <i class="fas fa-users d-none d-sm-inline-block"></i>
-            </div>
-            <div class="block">
-                <a class="nav-link" href="about.html">About</a>
-            </div>
-        </li>
-        <li class="nav-item col-2 text-center">
-            <div class="block">
-                <i class="fas fa-phone d-none d-sm-inline-block"></i>
-            </div>
-            <div class="block">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-            </div>
-        </li>
-        <li class="nav-item col-2  text-center">
-            <div class="block">
-                <i class="fas fa-sign-in-alt d-none d-sm-inline-block"></i>
-            </div>
-            <div class="block">
-                <a class="nav-link" href="login.html">Login</a>
-            </div>
-        </li>
-        <li class="nav-item col-2  text-center">
-            <div class="block"><i class="fas fa-user-plus d-none d-sm-inline-block"></i></div>
-            <div class="block">
-                <a class="nav-link" href="register.html">Register</a>
-            </div>
-        </li>
+                <div class="block">
+                    <p class="nav-link">Home</p>
+                </div>
+            </li>
+        </a>
+
+        <a href="#" class="nav-item" data-toggle="dropdown">
+            <li class="dropdown col-2 text-center">
+                <div class="block">
+                    <i class="fas fa-list-ul d-none d-sm-inline-block"></i>
+                </div>
+                <div class="block">
+                    <p class="nav-link">Category</p>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="electronics.html">
+                            <div class="inlineBlock"><i class="fas fa-plug"></i></div>
+                            <div class="inlineBlock dItem">Electronics</div>
+                        </a>
+                        <a class="dropdown-item" href="mobile.html">
+                            <div class="inlineBlock"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="inlineBlock dItem">Mobiles</div>
+                        </a>
+                        <a class="dropdown-item" href="furniture.html">
+                            <div class="inlineBlock"><i class="fas fa-chair"></i></div>
+                            <div class="inlineBlock dItem">Furniture</div>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </a>
+
+        <a class="nav-item col-2 text-center" href="about.html">
+            <li>
+                <div class="block">
+                    <i class="fas fa-users d-none d-sm-inline-block"></i>
+                </div>
+                <div class="block">
+                    <p class="nav-link">About</p>
+                </div>
+            </li>
+        </a>
+
+        <a class="nav-item col-2 text-center" href="contact.html">
+            <li>
+                <div class="block">
+                    <i class="fas fa-phone d-none d-sm-inline-block"></i>
+                </div>
+                <div class="block">
+                    <p class="nav-link">Contact</p>
+                </div>
+            </li>
+        </a>
+
+        <a class="nav-item col-2  text-center" href="login.html">
+            <li>
+                <div class="block">
+                    <i class="fas fa-sign-in-alt d-none d-sm-inline-block"></i>
+                </div>
+                <div class="block">
+                    <p class="nav-link">Login</p>
+                </div>
+            </li>
+        </a>
+
+        <a class="nav-item col-2  text-center" href="register.html">
+            <li>
+                <div class="block">
+                    <i class="fas fa-user-plus d-none d-sm-inline-block"></i>
+                </div>
+                <div class="block">
+                    <p class="nav-link">Register</p>
+                </div>
+            </li>
+        </a>
     </ul>
 </nav>
 
@@ -97,17 +116,13 @@
     </div>
 </div>
 
-<footer id="foot">
+<footer id="foot" class="col-12">
     <div class="d-block d-sm-inline-block col-4">
         <p>Top Categories</p>
         <ul>
             <li>
                 <div class="inlineBlock"><i class="fas fa-chair d-none d-sm-inline-block"></i></div>
                 <div class="inlineBlock"><a href="#">Furniture</a></div>
-            </li>
-            <li>
-                <div class="inlineBlock"><i class="fas fa-bolt d-none d-sm-inline-block"></i></div>
-                <div class="inlineBlock"><a href="#">Appliances</a></div>
             </li>
             <li>
                 <div class="inlineBlock"><i class="fas fa-plug d-none d-sm-inline-block"></i></div>
@@ -136,11 +151,10 @@
             </li>
         </ul>
     </div>
+    <div id="rights">
+        <p style="text-align: center">Copyright © 2015. Devil Hub.com. All Rights Reserved</p>
+    </div>
 </footer>
-
-<div class="col-12" id="rights">
-    <p style="text-align: center">Copyright © 2015. Devil Hub.com. All Rights Reserved</p>
-</div>
 
 
 
