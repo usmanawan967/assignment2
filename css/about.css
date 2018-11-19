@@ -2,6 +2,12 @@
     font-size: xx-large;
     display: inline;
 }
+.col h2{
+    font-size: medium;
+}
+#contributors{
+    padding-bottom: 10px;
+}
 #foot {
 
     background-color: black;
@@ -77,7 +83,6 @@
     background-color: white;
 }
 #container_about{
-    background-color: white;
 }
 .nav-link {
     color: black;
