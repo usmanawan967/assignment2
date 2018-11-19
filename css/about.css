@@ -2,8 +2,8 @@
     font-size: xx-large;
     display: inline;
 }
-
 #foot {
+
     background-color: black;
     clear: both;
     padding: 0px;
@@ -69,15 +69,16 @@
 .inlineBlock {
     display: inline-block;
 }
-
-.container {
+.container{
     background-color: black;
 }
 
 .navbar {
     background-color: white;
 }
-
+#container_about{
+    background-color: white;
+}
 .nav-link {
     color: black;
     margin: 0px;
