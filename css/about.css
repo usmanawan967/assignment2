@@ -1,0 +1,107 @@
+#companyName {
+    font-size: xx-large;
+    display: inline;
+}
+.col h2{
+    font-size: medium;
+}
+#contributors{
+    padding-bottom: 10px;
+}
+#foot {
+
+    background-color: black;
+    clear: both;
+    padding: 0px;
+}
+
+#foot p {
+    color: white;
+}
+
+#rights p {
+    background-color: white;
+    color: black;
+    margin: 0px;
+}
+
+#rights {
+    padding: 0px;
+}
+
+#foot ul {
+    list-style-type: none;
+    color: white;
+}
+
+#foot ul li a {
+    color: white;
+}
+
+#foot ul li a:hover {
+    text-decoration: none;
+    color: #f09e41;
+}
+
+#foot div div p {
+    color: white;
+}
+
+.dropdown:hover {
+    background-color: #f2f2f2;
+}
+
+.nav-item:hover {
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+
+.dropdown-item:hover .fa-plug, .dropdown-item:hover .fa-mobile-alt, .dropdown-item:hover .fa-chair, .dropdown-item:hover .dItem{
+    color: #f09e41;
+}
+
+.dropdown:hover .fa-list-ul, .dropdown:hover .nav-link{
+    color: #f09e41;
+}
+
+.nav-item:hover .fa-home, .nav-item:hover .nav-link, .nav-item:hover .fa-users, .nav-item:hover .fa-phone, .nav-item:hover .fa-sign-in-alt, .nav-item:hover .fa-user-plus {
+    color: #f09e41;
+}
+
+.block {
+    display: block;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+.container{
+    background-color: black;
+}
+
+.navbar {
+    background-color: white;
+}
+#container_about{
+}
+.nav-link {
+    color: black;
+    margin: 0px;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.fa-home, .fa-list-ul, .fa-users, .fa-phone, .fa-sign-in-alt, .fa-user-plus, .fa-map-marker-alt, .fa-plug, .fa-bolt, .fa-chair {
+    margin-top: 10px;
+    color: black;
+}
+
+#foot div ul li i {
+    color: white;
+}
+
+.navbar {
+    padding: 0%;
+}
