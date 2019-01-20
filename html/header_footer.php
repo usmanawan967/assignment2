@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Online Shopping Website">
-    <meta name="keywords" content="online shopping,e-commerce,home delivery">
-    <meta name="author" content="Muhammad Ahmad,Abdullah Sajjad,Usman Fayyaz">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/mobile.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <title>Electronics</title>
-</head>
-<body>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: abdul basit
+ * Date: 20/01/2019
+ * Time: 6:34 PM
+ */
 
-
+function getHeader(){
+    echo'
 <header class="container col-12">
     <div class="text-center">
-        <a href="index.html">
+        <a href="index.php">
             <img src="../images/logo2.png" height="100" alt="Company logo" class="nav-link" id="companyName">
         </a>
     </div>
@@ -29,7 +19,7 @@
 <nav class="navbar navbar-expand-sm col-12">
     <ul class="navbar-nav col-12">
 
-        <a class="nav-item col-2 text-center" href="index.html">
+        <a class="nav-item col-2 text-center" href="index.php">
             <li>
                 <div class="block">
                     <i class="fas fa-home d-none d-sm-inline-block"></i>
@@ -48,15 +38,15 @@
                 <div class="block">
                     <p class="nav-link">Category</p>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="electronics.html">
+                        <a class="dropdown-item" href="electronics.php">
                             <div class="inlineBlock"><i class="fas fa-plug"></i></div>
                             <div class="inlineBlock dItem">Electronics</div>
                         </a>
-                        <a class="dropdown-item" href="mobile.html">
+                        <a class="dropdown-item" href="mobile.php">
                             <div class="inlineBlock"><i class="fas fa-mobile-alt"></i></div>
                             <div class="inlineBlock dItem">Mobiles</div>
                         </a>
-                        <a class="dropdown-item" href="furniture.html">
+                        <a class="dropdown-item" href="furniture.php">
                             <div class="inlineBlock"><i class="fas fa-chair"></i></div>
                             <div class="inlineBlock dItem">Furniture</div>
                         </a>
@@ -65,7 +55,7 @@
             </li>
         </a>
 
-        <a class="nav-item col-2 text-center" href="about.html">
+        <a class="nav-item col-2 text-center" href="about.php">
             <li>
                 <div class="block">
                     <i class="fas fa-users d-none d-sm-inline-block"></i>
@@ -76,7 +66,7 @@
             </li>
         </a>
 
-        <a class="nav-item col-2 text-center" href="contact.html">
+        <a class="nav-item col-2 text-center" href="contact.php">
             <li>
                 <div class="block">
                     <i class="fas fa-phone d-none d-sm-inline-block"></i>
@@ -87,7 +77,7 @@
             </li>
         </a>
 
-        <a class="nav-item col-2  text-center" href="login.html">
+        <a class="nav-item col-2  text-center" href="login.php">
             <li>
                 <div class="block">
                     <i class="fas fa-sign-in-alt d-none d-sm-inline-block"></i>
@@ -98,7 +88,7 @@
             </li>
         </a>
 
-        <a class="nav-item col-2  text-center" href="register.html">
+        <a class="nav-item col-2  text-center" href="register.php">
             <li>
                 <div class="block">
                     <i class="fas fa-user-plus d-none d-sm-inline-block"></i>
@@ -109,71 +99,11 @@
             </li>
         </a>
     </ul>
-</nav>
+</nav>';
+}
 
-    <div class="container" id="tablemain" >
-        <div id="tablemain_text">Choose a Category</div>
-        <div class="row">
-        <div  class = "col">
-                <a href="#">
-                <div class = "cat_text">Laptops</div>
-                <img  src="../images/laptop.jpg" alt="Laptop image" class = "img-fluid">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Networking</div>
-                <img class = "img-fluid" src="../images/router.jpg" alt="Router image">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Accessories</div>
-                <img class = "img-fluid" src="../images/accessories.jpg" alt="Earphones image">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Microwave Ovens</div>
-                <img class = "img-fluid" src="../images/oven.jpeg" alt="Earphones image">
-                </a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Washing Machines</div>
-                <img class = "img-fluid" src="../images/washingmachine.jpg" alt="Earphones image">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">LED Tv</div>
-                <img class = "img-fluid" src="../images/ledtv.jpg" alt="Earphones image">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Sound Systems</div>
-                <img class = "img-fluid" src="../images/soundsystem.jpg" alt="Earphones image">
-                </a>
-            </div>
-
-            <div class = "col">
-                <a href="#">
-                <div class = "cat_text">Cameras</div>
-                <img class = "img-fluid" src="../images/camera.jpg" alt="Earphones image">
-                </a>
-            </div>
-        </div>
-    </div>
-
+function getFooter(){
+    echo'
 <footer id="foot" class="col-12">
     <div class="d-block d-sm-inline-block col-4">
         <p>Top Categories</p>
@@ -210,9 +140,9 @@
         </ul>
     </div>
     <div id="rights">
-        <p style="text-align: center">Copyright © 2015. Devil Hub.com. All Rights Reserved</p>
+        <p style="text-align: center">Copyright © 2019. Devil Hub.com. All Rights Reserved</p>
     </div>
-</footer>
+</footer>';
+}
 
-</body>
-</html>
+?>
