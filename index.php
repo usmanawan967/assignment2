@@ -8,9 +8,9 @@ require "header_footer.php";
     <meta name="description" content="Online Shopping Website">
     <meta name="keywords" content="online shopping,e-commerce,home delivery">
     <meta name="author" content="Muhammad Ahmad,Abdullah Sajjad,Usman Fayyaz">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -37,25 +37,25 @@ require "header_footer.php";
     <!-- The slideshow -->
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="../images/s.jpg" alt="Los Angeles">
+            <img src="images/s.jpg" alt="Los Angeles">
         </div>
         <div class="carousel-item">
-            <img src="../images/mobile.jpg" alt="Chicago">    <!--1500*720-->
+            <img src="images/mobile.jpg" alt="Chicago">    <!--1500*720-->
         </div>
         <div class="carousel-item">
-            <img src="../images/electronics.jpg" alt="New York">
+            <img src="images/electronics.jpg" alt="New York">
         </div>
         <div class="carousel-item">
-            <img src="../images/laptop.jpg" alt="Paris">
+            <img src="images/laptop.jpg" alt="Paris">
         </div>
         <div class="carousel-item">
-            <img src="../images/mouse.jpg" alt="Paris">
+            <img src="images/mouse.jpg" alt="Paris">
         </div>
         <div class="carousel-item">
-            <img src="../images/sofa.jpg" alt="Paris">
+            <img src="images/sofa.jpg" alt="Paris">
         </div>
         <div class="carousel-item">
-            <img src="../images/table.jpg" alt="Paris">
+            <img src="images/table.jpg" alt="Paris">
         </div>
     </div>
 
@@ -77,7 +77,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p1.jpg" class="img-fluid">
+                        <img src="images/p1.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Samsung</b></p>
@@ -90,7 +90,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p2.jpg" class="img-fluid">
+                        <img src="images/p2.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Samsung</b></p>
@@ -103,7 +103,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p3.jpg" class="img-fluid">
+                        <img src="images/p3.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Nokia</b></p>
@@ -116,7 +116,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p4.jpg" class="img-fluid">
+                        <img src="images/p4.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Apple</b></p>
@@ -129,7 +129,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p5.jpg" class="img-fluid">
+                        <img src="images/p5.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Apple</b></p>
@@ -147,7 +147,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p6.jpg" class="img-fluid">
+                        <img src="images/p6.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Interwood</b></p>
@@ -160,7 +160,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p7.jpeg" class="img-fluid">
+                        <img src="images/p7.jpeg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Ikea</b></p>
@@ -173,7 +173,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p8.jpg" class="img-fluid">
+                        <img src="images/p8.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Ikea</b></p>
@@ -186,7 +186,7 @@ require "header_footer.php";
             <a href="#">
                 <div class="product inlineBlock col-7 col-md-4 col-lg-3">
                     <div class="productImage">
-                        <img src="../images/p9.jpg" class="img-fluid">
+                        <img src="images/p9.jpg" class="img-fluid">
                     </div>
                     <div class="productDesc">
                         <p><b>Ikea</b></p>
