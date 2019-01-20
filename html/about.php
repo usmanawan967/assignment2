@@ -68,6 +68,19 @@ require "header_footer.php";
     <hr class="featurette-divider">
 
     <div class="row featurette">
+        <div class="col-md-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.809745790411!2d74.26604291462898!3d31.446904257913545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919017432b1835b%3A0xe396992a5b05891c!2sUniversity+of+Central+Punjab!5e0!3m2!1sen!2s!4v1543074940819" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Our Location <span class="text-muted"></span></h2>
+            <p class="lead">Address of our office is at 1-Khayaban-e-Jinnah Road,<br> Johar Town, Lahore.</p>
+        </div>
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
         <div class="col-md-7" id="contributors">
             <h2 class="featurette-heading">Contributors <span class="text-muted"></span></h2>
         </div>
