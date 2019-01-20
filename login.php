@@ -5,14 +5,14 @@ require "header_footer.php";
 <html>
 <head>
     <title>login</title>
-    <link rel="stylesheet" type="text/css" href="../css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <meta charset="UTF-8">
     <meta name="description" content="Online Shopping Website">
     <meta name="keywords" content="online shopping,e-commerce,home delivery">
     <meta name="author" content="Muhammad Ahmad,Abdullah Sajjad,Usman Fayyaz">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -29,7 +29,7 @@ require "header_footer.php";
 
     <form>
         <div class="imgcontainer">
-            <img src="../images/avatar.png" height="35" alt="Avatar" class="avatar">
+            <img src="images/avatar.png" height="35" alt="Avatar" class="avatar">
         </div>
         <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i><input type="text" placeholder=" User Name"
                                                                         required><br><br>

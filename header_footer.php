@@ -10,8 +10,8 @@ function getHeader(){
     echo '
 <header class="container col-12">
     <div class="text-center">
-        <a href="../index.php">
-            <img src="../images/logo2.png" height="100" alt="Company logo" class="nav-link" id="companyName">
+        <a href="index.php">
+            <img src="images/logo2.png" height="100" alt="Company logo" class="nav-link" id="companyName">
         </a>
     </div>
 </header>
@@ -19,7 +19,7 @@ function getHeader(){
 <nav class="navbar navbar-expand-sm col-12">
     <ul class="navbar-nav col-12">
 
-        <a class="nav-item col-2 text-center" href="../index.php">
+        <a class="nav-item col-2 text-center" href="index.php">
             <li>
                 <div class="block">
                     <i class="fas fa-home d-none d-sm-inline-block"></i>

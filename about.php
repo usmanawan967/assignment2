@@ -9,8 +9,8 @@ require "header_footer.php";
     <meta name="description" content="Online Shopping Website">
     <meta name="keywords" content="online shopping,e-commerce,home delivery">
     <meta name="author" content="Muhammad Ahmad,Abdullah Sajjad,Usman Fayyaz">
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
@@ -37,7 +37,7 @@ require "header_footer.php";
             <p class="lead">A group of young professionals eager to learn something new in the process of creating something different.</p>
         </div>
         <div class="col-md-5">
-            <img src="../images/whovr.jpg" class="img-fluid" alt="">
+            <img src="images/whovr.jpg" class="img-fluid" alt="">
         </div>
     </div>
 
@@ -49,7 +49,7 @@ require "header_footer.php";
             <p class="lead">What started off as a simple semester project is now being visited by hundreds, this is exactly why we are doing this...</p>
         </div>
         <div class="col-md-5 order-md-1">
-            <img src="../images/images.png" class="img-fluid" alt="">
+            <img src="images/images.png" class="img-fluid" alt="">
         </div>
     </div>
 
@@ -61,7 +61,7 @@ require "header_footer.php";
             <p class="lead">We have provided you with everything to see why this is different than other e-commerce websites.</p>
         </div>
         <div class="col-md-5">
-            <img src="../images/different.jpg" class="img-rounded" alt="">
+            <img src="images/different.jpg" class="img-rounded" alt="">
         </div>
     </div>
 
@@ -89,30 +89,30 @@ require "header_footer.php";
 
     <div class="row">
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Usman Ahmad Awan</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Fayzan Wasim</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Usman Fayyaz</h2>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
     <div class="row">
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Muhammad Ahmad</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Bilal Ahmad</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col">
-            <img src="../images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
+            <img src="images/perso.jpg" class="rounded-circle" width="50" height="50" alt="">
             <h2>Abdullah Sajjad</h2>
         </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
