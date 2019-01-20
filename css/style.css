@@ -81,6 +81,7 @@
 
 .navbar {
     background-color: white;
+    padding: 0px;
 }
 #container_about{
 }
@@ -103,5 +104,394 @@
 }
 
 .navbar {
-    padding: 0%;
+    padding: 0;
+}
+/*//////////////////////////////////////style.css/////////////////////////////////////////*/
+.box{
+    background: url('../images/back.jpg') center;
+    background-size: cover;
+    height: 100%;
+}
+.contact-form{
+    max-width: 550px;
+    margin: auto;
+    background: rgba(0,0,0,0.8);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+}
+
+.input-fields,.msg{
+    width: 48%;
+}
+
+.input-fields .input ,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    padding: 10px;
+    border-bottom: 2px solid whitesmoke;
+    color: whitesmoke;
+    width: 100%;
+}
+.msg textarea{
+    height: 208px;
+}
+::-webkit-input-placeholder {
+    color: whitesmoke;
+}
+::-moz-placeholder {
+    color: whitesmoke;
+}
+:-ms-input-placeholder {
+    color: whitesmoke;
+}
+
+.btn{
+    background:  #39b7dd;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .msg textarea {
+        height: 80px;
+    }
+
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+}
+
+/*////////////////////////////////////////////index.css///////////////////////////////////////*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+#productContainer a:hover{
+    color: white;
+}
+
+#productContainer a{
+    color:black;
+}
+
+.discPrice{
+    font-size: 11px;
+}
+
+.beforeDisc{
+    text-decoration: line-through;
+}
+
+.finalPrice{
+    color: #ff1a1a;
+    font-weight: bold;
+}
+
+.product{
+    background-color: #b3b3b3;
+    margin: 10px;
+}
+
+.product:hover{
+    background-color: #8c8c8c;
+    box-shadow: 8px 10px 10px 2px rgba(0,0,0,0.75);
+}
+
+.item img {
+    width: 100%;
+    height: auto
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.productImage{
+    padding: 5px;
+}
+
+.categoryName{
+    margin: 10px;
+}
+
+.productDesc p{
+    margin: 0px;
+}
+
+#productContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-indicators .active,.carousel-control-prev,.carousel-control-next{
+    background-color: black;
+}
+
+.carousel-indicators li{
+    color: grey;
+}
+
+.carousel .carousel-control-prev, .carousel .carousel-control-next{
+    width: 7%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*//////////////////////////////////////login.css///////////////////////////////////*/
+
+
+.imgcontainer {
+
+    margin: 24px 0 12px 0;
+    position: relative;
+
+}
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: red;
+}
+
+img.avatar {
+    width: 10%;
+    border-radius: 50%;
+}
+
+
+.login-form{
+    text-align: center;
+    max-width: 330px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    padding: 20px;
+    color: #ffff;
+}
+
+.login-form h2{
+    text-align: center;
+}
+input[type=text],input[type=Email],input[type=password]{
+
+    width: 200px;
+    height: 30px;
+    box-sizing: content-box;
+    background: rgba(0,0,0,0.10);
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 6px;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width: 40%;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 30px;
+    outline: none;
+    border:none;
+    background: #60adde;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    color:azure;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+/*////////////////////////////////mobile.css////////////////////////////////////*/
+#tablemain{
+    margin-top:0;
+    text-align: center;
+    background: none;
+}
+
+@media screen and (min-width: 768px) {
+    #tablemain #tablemain_text{
+        font-size: xx-large;
+        font-weight: lighter;
+        text-align: center;
+        opacity: 0.8;
+        color: black;
+        text-shadow: black;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #tablemain #tablemain_text{
+        font-size: x-large;
+        font-weight: lighter;
+        text-align: center;
+        opacity: 0.8;
+        color: black;
+        text-shadow: black;
+        margin-bottom: 30px;
+    }
+}
+#tablemain a{
+    text-underline: none;
+    text-decoration: none;
+}
+#tablemain .cat_text:hover{
+    color: #f09e41;
+    text-underline: none;
+}
+
+#tablemain .col{
+    margin:auto;
+    padding:auto;
+}
+
+.img-fluid{
+    min-width: 80px;
+    min-height: 80px;
+    width: 120px;
+    height:100px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: #4e555b;
+    border-radius: 10px;
+}
+.img-fluid:hover{
+    border: black 3px groove;
+}
+
+#tablemain .cat_text{
+    margin-bottom: auto;
+    position:relative;
+    float:top;
+    text-decoration: #4e555b;
+    background: black;
+    border-radius: 20px;
+    color: #ffffff;
+    opacity: 0.8;
 }

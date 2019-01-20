@@ -21,6 +21,7 @@ require "header_footer.php";
 <?php getHeader(); ?>
 
 <div class="box">
+    <br><br><br>
     <div class="contact-form">
 
         <div class="input-fields">
@@ -33,8 +34,8 @@ require "header_footer.php";
             <textarea placeholder="Message"></textarea>
             <div class="btn">Send</div>
         </div>
-
     </div>
+    <br><br><br>
 </div>
 
 <?php getFooter(); ?>

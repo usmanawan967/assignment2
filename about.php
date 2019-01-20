@@ -13,8 +13,6 @@ require "header_footer.php";
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -28,9 +26,6 @@ require "header_footer.php";
 <?php getHeader(); ?>
 
 <div class="container" id="container_about" style="background-color: ghostwhite">
-
-    <hr class="featurette-divider">
-
     <div class="row featurette">
         <div class="col-md-7">
             <h2 class="featurette-heading">Who we are?<span class="text-muted"></span></h2>
