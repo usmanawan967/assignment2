@@ -34,11 +34,11 @@ require "header_footer.php";
             <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i><input type="Password"
                                                                             placeholder=" Enter Password"
                                                                             required=""><br>
-            <label>
-                <input type="checkbox" checked="checked" name="remember "> Remember me
-            </label>
-            <input type="submit" value="login"> <br>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="remember" name="remember">
+                    <label class="form-check-label" for="remember">Remember me</label>
+                </div>
+                <input class="btn btn-lg btn-primary mt-3" type="submit" name="login" value="Sign in">
 
         </form>
     </div>
