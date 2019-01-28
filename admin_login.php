@@ -48,7 +48,6 @@ require "header_footer.php"
 <body>
 <?php getHeader(); ?>
 <h2 class="text-danger"><?php echo @$_GET['not_admin']?></h2>
-<h2 class="text-primary"><?php echo @$_GET['logged_out']?></h2>
 <div class="box">
     <br><br><br>
     <div class="login-form">
