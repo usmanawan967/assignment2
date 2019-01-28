@@ -17,7 +17,7 @@ if(!isset($_SESSION['user_email'])){
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Old+Standard+TT">
-    <title>TechBox Admin Panel</title>
+
     <style>
         * {
             font-family: 'Old Standard TT', serif;
