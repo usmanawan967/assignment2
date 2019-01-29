@@ -52,7 +52,7 @@ if(isset($_POST['update_pro'])){
 
     $update_pro = mysqli_query($con, $update_product);
     if($update_pro){
-        header("location: index.php?view_products");
+        echo "<h2> Product has been successfully edited! </h2>";
     }
 }
 ?>

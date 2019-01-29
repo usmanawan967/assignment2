@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 require "header_footer.php";
+require "functions.php";
 ?>
 <html lang="en">
 <head>
@@ -67,135 +68,8 @@ require "header_footer.php";
     </a>
 </div>
 
-<div class="col-12" id="productPreview">
-    <div class="col-12 col-sm-10" id="productContainer">
-        <div id="caegory" class="text-center">
-            <div class="categoryName">
-                <h3>Mobiles:</h3>
-            </div>
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p1.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Samsung</b></p>
-                        <p>J7 Prime<br><span class="finalPrice">PKR 25,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 26,000</span> -10%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p2.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Samsung</b></p>
-                        <p>Galaxy Note9<br><span class="finalPrice">PKR 100,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 125,000</span> -15%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p3.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Nokia</b></p>
-                        <p>Nokia 2<br><span class="finalPrice">PKR 25,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 27,000</span> -20%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p4.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Apple</b></p>
-                        <p>Iphone X<br><span class="finalPrice">PKR 125,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 130,000</span> -5%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p5.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Apple</b></p>
-                        <p>Iphone XS-MAX<br><span class="finalPrice">PKR 120,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 127,000</span> -11%</p>
-                    </div>
-                </div>
-            </a>
-
-
-            <div class="categoryName">
-                <h3>Furniture:</h3>
-            </div>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p6.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Interwood</b></p>
-                        <p>Bed<br><span class="finalPrice">PKR 24,990</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 27,000</span> -8%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p7.jpeg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Ikea</b></p>
-                        <p>Chair<br><span class="finalPrice">PKR 10,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 10,500</span> -2%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p8.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Ikea</b></p>
-                        <p>Sofa<br><span class="finalPrice">PKR 25,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 25,500</span> -9%</p>
-                    </div>
-                </div>
-            </a>
-
-            <a href="#">
-                <div class="product inlineBlock col-7 col-md-4 col-lg-3">
-                    <div class="productImage">
-                        <img src="images/p9.jpg" class="img-fluid">
-                    </div>
-                    <div class="productDesc">
-                        <p><b>Ikea</b></p>
-                        <p>Dinning Table<br><span class="finalPrice">PKR 30,000</span></p>
-                        <p class="discPrice"><span class="beforeDisc">PKR 40,000</span> -20%</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </div>
+<div class="row" id="productPreview" style="padding: 50px" >
+    <?php getpro(); ?>
 </div>
 
 <?php getFooter(); ?>

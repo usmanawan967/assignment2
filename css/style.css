@@ -2,6 +2,10 @@
     font-size: xx-large;
     display: inline;
 }
+#actions{
+  color: black;
+}
+
 .col h2{
     font-size: medium;
 }
@@ -18,6 +22,11 @@
 #foot p {
     color: white;
 }
+
+#productPreview{
+    padding: 50px;
+}
+
 
 #rights p {
     background-color: white;
@@ -75,8 +84,8 @@
 .inlineBlock {
     display: inline-block;
 }
-.container{
-    background-color: black;
+#containerStyle{
+    background: #4e555b;
 }
 
 .navbar {
@@ -471,18 +480,17 @@ input[type=submit]{
     padding:auto;
 }
 
-.img-fluid{
+#product-image{
     min-width: 80px;
     min-height: 80px;
     width: 120px;
     height:100px;
     margin: 10px;
     padding: 5px;
-    box-shadow: #4e555b;
     border-radius: 10px;
 }
-.img-fluid:hover{
-    border: black 3px groove;
+#product-image:hover{
+    /*border: green 3px groove;*/
 }
 
 #tablemain .cat_text{

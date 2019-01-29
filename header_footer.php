@@ -8,7 +8,7 @@
 
 function getHeader(){
     echo '
-<header class="container col-12">
+<header class="container col-12" style="background: black">
     <div class="text-center">
         <a href="index.php">
             <img src="images/logo2.png" height="100" alt="Company logo" class="nav-link" id="companyName">
@@ -77,7 +77,7 @@ function getHeader(){
             </li>
         </a>
 
-        <a class="nav-item col-2  text-center" href="login.php">
+        <a class="nav-item col-2  text-center" href="admin_login.php">
             <li>
                 <div class="block">
                     <i class="fas fa-sign-in-alt d-none d-sm-inline-block"></i>
