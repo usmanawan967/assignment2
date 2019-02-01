@@ -17,7 +17,7 @@
             $run_pro = mysqli_query($con,$get_pro);
             $count_pro = mysqli_num_rows($run_pro);
             if($count_pro==0){
-                echo "<h2> No Product found in selected criteria </h2>";
+                echo "<h2> No Product Found</h2>";
             }
             else {
                 $i = 0;
