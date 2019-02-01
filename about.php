@@ -133,7 +133,11 @@ require "header_footer.php";
 
     </div><!-- /.container -->
 </div>
-hxgjhgxJHZg
+/*<a href="#" id="share-fb" class="sharer button"><i class="fa fa-3x fa-facebook-square"></i></a>
+<a href="#" id="share-tw" class="sharer button"><i class="fa fa-3x fa-twitter-square"></i></a>
+<a href="#" id="share-li" class="sharer button"><i class="fa fa-3x fa-linkedin-square"></i></a>
+<a href="#" id="share-gp" class="sharer button"><i class="fa fa-3x fa-google-plus-square"></i></a>
+<a href="#" id="share-em" class="sharer button"><i class="fa fa-3x fa-envelope-square"></i></a>*/
 <?php getFooter(); ?>
 
 </body>
