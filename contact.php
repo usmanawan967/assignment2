@@ -1,3 +1,18 @@
+<?php
+include ('db_connection.php');
+$error_msg='';
+if(isset($_POST['send'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $msg = $_POST['msg'];
+    $subject = $_POST['subject'];
+
+   $com = "INSERT INTO comments (msg,phone,name,email,subject) VALUES ('$msg','$phone','$name','$email','$subject')";
+   $comment_result = mysqli_query($con,$com);
+}
+?>
+
 <!DOCTYPE html>
 <?php
 require "header_footer.php";
@@ -23,17 +38,19 @@ require "header_footer.php";
 <div class="box">
     <br><br><br>
     <div class="contact-form">
+        <form class="contact_form" action="contact.php" method="post">
 
         <div class="input-fields">
-            <input type="text" class="input" placeholder="Name">
-            <input type="text" class="input" placeholder="Email">
-            <input type="text" class="input" placeholder="Phone">
-            <input type="text" class="input" placeholder="Subject">
+            <input type="text" id="name"  name="name" class="input" placeholder="Name">
+            <input type="text" id="email" name="email" class="input" placeholder="Email">
+            <input type="text" id="phone" name="phone" class="input" placeholder="Phone">
+            <input type="text" id="subject" name="subject" class="input" placeholder="Subject">
         </div>
         <div class="msg">
-            <textarea placeholder="Message"></textarea>
-            <div class="btn">Send</div>
+            <textarea id='msg' name='msg' placeholder="Message"></textarea>
+            <input class="btn btn-lg btn-primary mt-3" type="submit" name="send" value="Send comment">
         </div>
+        </form>
     </div>
     <br><br><br>
 </div>
