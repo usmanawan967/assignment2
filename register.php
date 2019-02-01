@@ -1,3 +1,31 @@
+
+<?php
+include ('db_connection.php');
+$error_msg='';
+  if(isset($_POST['login'])){
+        $fname = $_POST['fname'];
+        $lname = $_POST['lname'];
+        $email = $_POST['email'];
+        $pass = $_POST['user_pass'];
+        $dob = $_POST['dob'];
+        $gender = $_POST['gender'];
+        $sel_user = "select * from users where email='$email' AND pass='$pass'";
+        $run_user = mysqli_query($con, $sel_user);
+        $check_user = mysqli_num_rows($run_user);
+        if($check_user==0){
+            $reg_user = "INSERT INTO users (fname,lname,email,pass,dob,gender) VALUES ('$fname','$lname','$email','$pass','$dob','$gender')";
+            $run_reg_user = mysqli_query($con,$reg_user);
+            if(!$run_reg_user){
+                $error_msg='Unable to register user';
+                echo "<h1> error1 </h1>";
+            }
+        }
+        else{
+            $error_msg = 'Password or Email is wrong, try again';
+            echo "<h1> error </h1>";
+        }
+    }
+?>
 <!DOCTYPE html>
 <?php
 require "header_footer.php";
@@ -22,39 +50,43 @@ require "header_footer.php";
 
 <?php getHeader(); ?>
 
+<script>
+
+</script>
+
+
+
 <div class="box">
     <br><br><br>
     <div class="login-form">
         <h2>Sign Up</h2>
-        <form>
-            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i><input type="text" placeholder=" First Name"
+        <form class="register_form" action="register.php" method="post">
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i><input type="text" name="fname" id="fname" placeholder=" First Name"
                                                                             required><br>
 
-            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i><input type="text" placeholder=" Last Name"
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i><input type="text" name="lname" id="lname"  placeholder=" Last Name"
                                                                             required><br>
 
-            <i class="fa fa-mars fa-lg fa-fw" aria-hidden="true"></i><input type="radio" name="Gender" value="Male">Male
-            <i class="fa fa-venus fa-lg fa-fw" aria-hidden="true"></i><input type="radio" name="Gender" value="Female">Female<br>
-            <i class="fa fa-calendar fa-lg fa-fw" aria-hidden="true"></i><input type="text" placeholder="Date Of Birth"
+            <i class="fa fa-mars fa-lg fa-fw" aria-hidden="true"></i><input type="radio" name="gender" value="Male">Male
+            <i class="fa fa-venus fa-lg fa-fw" aria-hidden="true"></i><input type="radio" name="gender" value="Female">Female<br>
+            <i class="fa fa-calendar fa-lg fa-fw" aria-hidden="true"></i><input type="text" name="dob" placeholder="Date Of Birth"
                                                                                 required><br>
 
-            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i><input type="Email"
-                                                                                placeholder=" Email Address"
-                                                                                required><br>
+            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i><input type="Email" placeholder=" Email Address" name="email" required id="email"><br>
 
-            <i class="fa fa-unlock fa-lg fa-fw" aria-hidden="true"></i><input type="Password"
-                                                                              placeholder=" New Passoword"
-                                                                              required><br>
-            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i><input type="Password"
-                                                                            placeholder=" Confirm Passoword"
-                                                                            required>
-            <input type="submit" value="Register">
+            <i class="fa fa-unlock fa-lg fa-fw" aria-hidden="true"></i><input type="Password" placeholder=" New Password" name="user_pass"required id="user_pass"><br>
+            <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i><input type="Password" placeholder=" Confirm Password" required>
+            <input class="btn btn-lg btn-primary mt-3" type="submit" name="login" value="Sign in">
         </form>
     </div>
+    <div id="message"></div>
     <br><br><br>
 </div>
 
 <?php getFooter(); ?>
+
+<script src="../js/jquery-3.3.1.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
