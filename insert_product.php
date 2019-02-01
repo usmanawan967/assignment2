@@ -21,7 +21,7 @@ if(isset($_POST['insert_pro'])){
                   VALUES ('$pro_cat','$pro_brand','$pro_title','$pro_price','$pro_desc','$pro_image','$pro_keywords');";
     $insert_pro = mysqli_query($con, $insert_product);
     if($insert_pro){
-        echo "<h2 style='text-decoration: red'> Product has been successfully inserted! </h2>
+        echo "<h2 style='text-decoration: red'> Product has been Successfully Inserted! </h2>
         <a href='view_products.php'></a>";
     }
 }
