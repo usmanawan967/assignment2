@@ -52,7 +52,7 @@ if(isset($_POST['update_pro'])){
 
     $update_pro = mysqli_query($con, $update_product);
     if($update_pro){
-        echo "<h2> Product has been successfully edited! </h2>";
+        echo "<h2> Product has been Successfully Edited! </h2>";
     }
 }
 ?>
